@@ -352,6 +352,7 @@
           aaSorting: [[1, 'desc']],
           "ajax": {
               "url": '/sells?sale_type=sales_order',
+              "dataType": "jsonp",
               "data": function ( d ) {
                   d.for_dashboard_sales_order = true;
               }
